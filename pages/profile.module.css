@@ -1,0 +1,15 @@
+.loading {
+  height: 100vh;
+  margin-top: -65px;
+}
+
+.main {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .main {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}

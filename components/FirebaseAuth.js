@@ -23,7 +23,7 @@ const firebaseAuthConfig = {
       provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
     },
   ],
-  signInSuccessUrl: "/",
+  signInSuccessUrl: "/profile",
   credentialHelper: "none",
   callbacks: {
     signInSuccessWithAuthResult: async ({ user }, redirectUrl) => {

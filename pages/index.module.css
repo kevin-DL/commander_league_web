@@ -1,0 +1,14 @@
+.index {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("https://res.cloudinary.com/deezgu5i7/image/upload/c_scale,e_gradient_fade:20,o_66,w_1920,z_0.8/v1603388872/commander_league/ryan-quintal-Vp8RnXSnJ6I-unsplash_q2znva.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin-top: -65px;
+}
+
+.main-button {
+  margin-top: 1.5rem !important;
+}

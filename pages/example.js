@@ -1,17 +1,18 @@
-import Link from 'next/link'
+import Link from "next/link";
+import DefaultLayout from "../components/defaultLayout";
 
 const Example = (props) => {
   return (
-    <div>
+    <DefaultLayout requiresAuth>
       <p>
         This page is static because it does not fetch any data or include the
         authed user info.
       </p>
-      <Link href={'/'}>
+      <Link href={"/"}>
         <a>Home</a>
       </Link>
-    </div>
-  )
-}
+    </DefaultLayout>
+  );
+};
 
-export default Example
+export default Example;
